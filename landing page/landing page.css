@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+
+}
+.Name-logo{
+    height:120px;
+    margin-right: auto;
+
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 5%;
+    background-color: transparent;
+}
+li, a, button{
+    font-size: 15px;
+    text-decoration: none;
+    color:white;
+
+}
+nav ul li{
+    display: inline-block;
+    padding: 40px;
+    text-decoration-line: none;
+}
+nav ul li a{
+    margin:0;
+    transition: all 0.3s ease 0s;
+
+}
+nav ul li a:hover{
+    color: red;
+    transition: all 0.3s ease 0s;
+}
+header>button{
+    padding: 4px 8px;
+    align-items: center;
+    background-color: teal;
+    color: white;
+    border-radius: 10px;
+    cursor :pointer;
+    border:none;
+}
+header>button:hover{
+    background-color: orange;
+    transition: all 0.3s ease 0s;
+}
+/* body*/
+.wrapper {
+    background: url('./images/compare-fibre-9HGPvHThNME-unsplash.jpg') no-repeat center center / cover;
+    width: 100%;
+    display: block;
+    position: relative;
+    z-index: 1; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.web-dev-image{
+    height:350px;
+    
+}
+.content{
+    display: flex;
+    padding:10px 5%;
+    justify-content: space-between;
+    color: white;
+}
+i.fa{
+    margin-right: 10px;
+}
+
+.written-info h1{
+    margin-top: 50px;
+    font-size: 40px;
+}
+.written-info span{
+    color: orange;
+}
+.written-info p{
+    padding:10px;
+    line-height: 2;
+    font-size: 18px;
+    margin-bottom: 200px;
+}
+.profilepic{
+    height: 250px;
+}
+.gridlist{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap:20px;
+    padding:20px;
+    justify-content: space-around;
+}
+.gridelements{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding:20px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.footer-div{
+    color: white;
+    background-color: orange;
+    text-align: center;
+    padding:15px;
+}
+.contact-info{
+  
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.contact-info h2{
+    margin-top: 100px;
+}
+.contact-info p{
+    margin-bottom: 0px;
+}
